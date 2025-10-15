@@ -1786,7 +1786,7 @@ export const WORK_EXPERIENCE = [
     company: "MakeMyMotor",
     role: "App Developer + Designer",
     achievements: [
-      "Worked with a cross-functional team to build a scalable Ios and Android App ",
+      "Worked with a cross-functional team to build a scalable iOS and Android App ",
       "Designed + Integarted Payment walls and Payment systems + Integartion of PHP backend ",
     ],
   },
