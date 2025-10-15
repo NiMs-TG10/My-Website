@@ -135,7 +135,7 @@ export function Skills() {
                 // Logic to handle the case where 'name' is missing, like in the TypeScript entry
                 const skillName =
                   skill.name ||
-                  skill.logo?.split("/").pop().split(".")[0] ||
+                  skill.logo?.split("/").pop()?.split(".")[0] || // <--- ADDED '?.` HERE
                   "Unknown";
                 const skillLogo = skill.logo || skill.name;
 
