@@ -63,7 +63,7 @@ import { motion } from "motion/react";
 import { calmEase, skillsByCategory } from "@/lib/Constant";
 
 // A utility function to format the category key into a title for display
-const getCategoryTitle = (key) => {
+const getCategoryTitle = (key: string) => {
   switch (key) {
     case "languages":
       return "LANGUAGES (Programming & Scripting) ";
