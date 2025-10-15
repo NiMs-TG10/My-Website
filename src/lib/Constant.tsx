@@ -1708,7 +1708,7 @@ export const projects = [
       "Recreation of the Zentry website with modern UI components and responsive design.",
     image: "/projects/zentry.png",
     video: "/placeholder.svg?text=Zentry+Demo", // link: "https://zentry-clone-delta.vercel.app/",
-    github:"https://zentry-frontend-umber.vercel.app/#contact"
+    github: "https://zentry-frontend-umber.vercel.app/#contact",
     // github: "https://github.com/NiMs-TG10/Zentry-Frontend",
     tags: ["React", "GSAP", "Styled Components", "Tailwind CSS"],
     type: "fullstack",
