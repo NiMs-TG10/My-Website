@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { Inter, Fredoka } from "next/font/google";
 
@@ -50,6 +51,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${fredoka.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
